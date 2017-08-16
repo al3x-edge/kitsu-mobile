@@ -22,7 +22,7 @@ class HomeScreen extends Component {
 
   componentDidMount() {
     const { navigation, currentUser } = this.props;
-    navigation.setParams({ userId: currentUser.id });
+    // navigation.setParams({ userId: currentUser.id });
   }
 
   render() {
